@@ -9,7 +9,7 @@ import retrofit2.http.GET;
 
 public interface WidgetAPI {
 
-    String BASE_URL = "http://wow.majorleaguegaming.com/";
+    String BASE_URL = "http://overwatch.majorleaguegaming.com/";
 
     @GET("widget")
     Call<Widget> getWidget();

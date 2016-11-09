@@ -57,12 +57,16 @@ public class Widget {
     @SerializedName("image_1")
     @Expose
     private String image1;
+    @SerializedName("image_2")
+    @Expose
+    private String image2;
     @SerializedName("active_text")
     @Expose
     private String activeText;
     @SerializedName("name_1_display_name")
     @Expose
     private String name1DisplayName;
+
 
     /**
      * 
@@ -350,6 +354,23 @@ public class Widget {
      */
     public void setImage1(String image1) {
         this.image1 = image1;
+    }
+
+    /**
+     *
+     * @return
+     *     The image2
+     */
+    public String getImage2() {
+        return image2;
+    }
+    /**
+     *
+     * @param image2
+     *     The image_2
+     */
+    public void setImage2(String image2) {
+        this.image2 = image2;
     }
 
     /**
